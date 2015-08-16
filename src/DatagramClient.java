@@ -12,7 +12,8 @@ public class DatagramClient
     //	bookSeat <name> <seatNum>  
     //	search <name> 
     //	delete <seatNum>
-    System.out.println("enter the reservation name: ");
+    System.out.println("UDP Datagram client Start");
+    //System.out.println("enter the reservation name: ");
     // Retrieve the input 
     //  
     //array list of c total seats from 1 to c (100) 

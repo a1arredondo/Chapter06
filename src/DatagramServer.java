@@ -6,6 +6,7 @@ public class DatagramServer
         DatagramPacket datapacket, returnpacket;
         int port = 2018;
         int len = 1024;
+        System.out.println("UDP Datagram SERVER Start");
         try {
             DatagramSocket datasocket = new DatagramSocket(port);
             byte[] buf = new byte[len];
